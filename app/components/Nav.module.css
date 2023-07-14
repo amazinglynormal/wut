@@ -2,6 +2,9 @@
   width: 100%;
   margin: 0 auto;
   height: 3rem;
+  position: fixed;
+  top: 0;
+  background-color: white;
 }
 
 .navList {

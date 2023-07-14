@@ -6,17 +6,17 @@ export default function Nav() {
     <nav className={styles.nav}>
       <ul className={styles.navList}>
         <li className={styles.navListItem}>
-          <a className={styles.navListItemLink} href="http://">
+          <a className={styles.navListItemLink} href="/">
             Home
           </a>
         </li>
         <li className={styles.navListItem}>
-          <a className={styles.navListItemLink} href="http://">
+          <a className={styles.navListItemLink} href="/">
             Pricing
           </a>
         </li>
         <li className={styles.navListItem}>
-          <a className={styles.navListItemLink} href="http://">
+          <a className={styles.navListItemLink} href="/">
             Dashboard
           </a>
         </li>
