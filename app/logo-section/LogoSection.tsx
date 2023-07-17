@@ -3,7 +3,7 @@ import styles from "./LogoSection.module.css";
 
 export default function LogoSection() {
   return (
-    <div className={styles.logoSection}>
+    <section className={styles.logoSection}>
       <h2 className={styles.heading}>
         We have not been featured in the following publications:
       </h2>
@@ -29,6 +29,6 @@ export default function LogoSection() {
           className={styles.logo}
         />
       </div>
-    </div>
+    </section>
   );
 }
