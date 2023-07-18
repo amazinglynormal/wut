@@ -1,3 +1,4 @@
+import Footer from "./components/Footer";
 import Nav from "./components/Nav";
 import CTASection from "./cta-section/CTASection";
 import FeatureSection from "./feature-section/FeatureSection";
@@ -17,6 +18,7 @@ export default function Home() {
         <StatsSection />
         <CTASection />
       </main>
+      <Footer />
     </>
   );
 }
