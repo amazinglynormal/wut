@@ -1,0 +1,58 @@
+.section {
+  padding: 1rem;
+}
+
+.sectionHeader {
+  max-width: 48rem;
+  margin: 0 auto;
+}
+
+.heading {
+  margin-top: 2rem;
+}
+
+.subheading {
+  font-size: 1.25rem;
+  margin: 1.25rem 0 2.5rem;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  border: 1px solid rgb(68, 68, 212, 0.2);
+  font-size: 1.1rem;
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem 0 0.5rem;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.primaryButton {
+  background-color: rgb(68, 68, 212);
+  color: white;
+}
+
+@media screen and (min-width: 640px) {
+  .sectionHeader {
+    text-align: center;
+  }
+
+  .buttonContainer {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .button {
+    margin: 0.5rem;
+  }
+}
