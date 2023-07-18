@@ -6,7 +6,7 @@ export default function FeatureSection() {
     <section className={styles.section}>
       <div className={styles.sectionHeader}>
         <h2 className={styles.heading}>
-          Feature section for whatever you&apos;re shilling
+          Feature section for whatever we&apos;re shilling
         </h2>
         <p className={styles.subheading}>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor

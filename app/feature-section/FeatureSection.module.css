@@ -1,5 +1,5 @@
 .section {
-  padding: 1rem 1rem 3rem;
+  padding: 3rem 1rem;
 }
 
 .sectionHeader {
@@ -13,12 +13,12 @@
 
 .subheading {
   font-size: 1.25rem;
-  margin-top: 1.25rem;
+  margin: 2rem 0;
 }
 
 .featureGrid,
 .featureContainer {
-  margin-top: 1.25rem;
+  margin-top: 2rem;
 }
 
 .dt {

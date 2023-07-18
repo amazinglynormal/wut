@@ -13,12 +13,13 @@
 
 .subheading {
   font-size: 1.25rem;
-  margin: 1.25rem 0 2.5rem;
+  margin: 2rem 0 2.5rem;
 }
 
 .buttonContainer {
   display: flex;
   flex-direction: column;
+  margin-bottom: 3rem;
 }
 
 .button {
