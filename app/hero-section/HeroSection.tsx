@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import styles from "./HeroSection.module.css";
 
 export default function HeroSection() {
@@ -17,12 +18,12 @@ export default function HeroSection() {
         >
           Call-to-Action Button
         </button>
-        <button
-          type="button"
+        <Link
+          href="/pricing"
           className={`${styles.button} ${styles.secondaryButton}`}
         >
           Goes to pricing <span className={styles.buttonSpan}>→</span>
-        </button>
+        </Link>
       </div>
     </section>
   );

@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import styles from "./Nav.module.css";
 
 export default function Nav() {
@@ -6,19 +7,19 @@ export default function Nav() {
     <nav className={styles.nav}>
       <ul className={styles.navList}>
         <li className={styles.navListItem}>
-          <a className={styles.navListItemLink} href="/">
+          <Link className={styles.navListItemLink} href="/">
             Home
-          </a>
+          </Link>
         </li>
         <li className={styles.navListItem}>
-          <a className={styles.navListItemLink} href="/">
+          <Link className={styles.navListItemLink} href="/pricing">
             Pricing
-          </a>
+          </Link>
         </li>
         <li className={styles.navListItem}>
-          <a className={styles.navListItemLink} href="/">
+          <Link className={styles.navListItemLink} href="/dashboard">
             Dashboard
-          </a>
+          </Link>
         </li>
       </ul>
     </nav>

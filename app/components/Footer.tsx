@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import styles from "./Footer.module.css";
 
 export default function Footer() {
@@ -9,13 +10,13 @@ export default function Footer() {
         <nav>
           <ul className={styles.navList}>
             <li className={styles.navListItem}>
-              <a href="#">Home</a>
+              <Link href="/">Home</Link>
             </li>
             <li className={styles.navListItem}>
-              <a href="#">Pricing</a>
+              <Link href="/pricing">Pricing</Link>
             </li>
             <li className={styles.navListItem}>
-              <a href="#">Dashboard</a>
+              <Link href="/dashboard">Dashboard</Link>
             </li>
           </ul>
         </nav>

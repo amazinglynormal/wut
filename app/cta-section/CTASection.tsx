@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import styles from "./CTASection.module.css";
 
 export default function CTASection() {
@@ -19,12 +20,12 @@ export default function CTASection() {
         >
           Another Call-to-Action Button
         </button>
-        <button
-          type="button"
+        <Link
+          href="/pricing"
           className={`${styles.button} ${styles.secondaryButton}`}
         >
           Goes to pricing <span className={styles.buttonSpan}>→</span>
-        </button>
+        </Link>
       </div>
     </section>
   );
