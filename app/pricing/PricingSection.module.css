@@ -1,0 +1,108 @@
+.section {
+  padding: 5rem 1rem;
+}
+
+.sectionHeader {
+  text-align: center;
+  max-width: 48rem;
+  margin: 0 auto;
+}
+
+.heading {
+  margin-top: 2rem;
+  font-size: 2.5rem;
+}
+
+.subheading {
+  font-size: 1.25rem;
+  margin: 2rem 0;
+  color: #6e6e6e;
+}
+
+.offerContainer {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.offerHeading {
+  margin-bottom: 1rem;
+}
+
+.offerSubheading,
+.offerCTACopy,
+.disclaimer {
+  color: #6e6e6e;
+}
+
+.offerSubheading {
+  max-width: 30rem;
+  margin: 0 auto;
+}
+
+.offerCTAContainer {
+  border: 1px solid #d8d8d8;
+  border-radius: 10px;
+  padding: 1rem;
+  margin: 2rem auto 0;
+  max-width: 35rem;
+}
+
+.offerCTACopy {
+  font-size: 1.2rem;
+  margin-bottom: 0.8rem;
+}
+
+.offerPrice {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.8rem;
+}
+
+.button {
+  border: 1px solid rgb(68, 68, 212, 0.2);
+  font-size: 1.1rem;
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem 0 1rem;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.primaryButton {
+  background-color: rgb(6, 90, 41);
+
+  color: white;
+}
+
+.disclaimer {
+  font-size: 0.9rem;
+}
+
+@media screen and (min-width: 640px) {
+  .heading {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .offerContainer {
+    display: flex;
+  }
+
+  .offerContainerHeader {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .offerCTAContainer {
+    margin: 2rem;
+  }
+}
