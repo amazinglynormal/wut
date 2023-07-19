@@ -93,6 +93,7 @@
 @media screen and (min-width: 1024px) {
   .offerContainer {
     display: flex;
+    justify-content: center;
   }
 
   .offerContainerHeader {
